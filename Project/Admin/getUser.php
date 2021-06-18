@@ -19,6 +19,7 @@ if($fetch['username']!= $username) {
 }
 else
 {
+    echo '<div style="  padding:20px; ">';
     echo '<span>Record Found!!!</span><br>';
     echo '<table class="table table-dark table-hover">
         <tr>
@@ -44,4 +45,5 @@ else
         </tr>
 
            </table>';
+        echo '</div>';
 }

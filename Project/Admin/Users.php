@@ -61,7 +61,7 @@ $fetch = mysqli_query($conn, $query);
             border-radius: 5px;
             
         }
-
+      
         .links {
             background-color: transparent;
             color: white;
@@ -129,7 +129,7 @@ $fetch = mysqli_query($conn, $query);
                     </div>
                  
                 </div>
-                <div class="container" style="text-align: center;" id="showUser"></div>
+                <div class="container"  style="text-align: center;" id="showUser"></div><br>
         
                 <table class="table table-dark">
                     <tr>
