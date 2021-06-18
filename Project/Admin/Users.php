@@ -175,7 +175,6 @@ $fetch = mysqli_query($conn, $query);
 
     function searchUser(str) {
         if (str.length == 0) {
-
             document.getElementById('showUser').innerHTML = '';
             return;
         } 
