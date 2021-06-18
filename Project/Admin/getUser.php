@@ -20,7 +20,7 @@ if($fetch['username']!= $username) {
 else
 {
     echo '<h3>Record Found</h3><br>';
-    echo '<table class="table table-danger">
+    echo '<table class="table table-success">
         <tr>
            <th>ID</th>
            <th>Username</th>
